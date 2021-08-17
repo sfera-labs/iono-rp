@@ -43,6 +43,7 @@ class AO(PWM):
     def __init__(self, name, pin):
         super().__init__(Pin(pin))
         self._name = name
+        self.freq(1000)
         
     def name(self):
         return self._name
