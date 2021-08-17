@@ -144,10 +144,10 @@ class _RS485:
     def __init__(self):
         self._txen_n = Pin(25, mode=Pin.OUT)
         self.init()
-        
-    def init(self, baudrate=9600, bits=8, parity=None, stop=1, timeout=-1, timeout_char=-1):
-        self._uart = UART(0, baudrate=baudrate, bits=bits, parity=parity, stop=stop, tx=Pin(16), rx=Pin(17), timeout=timeout, timeout_char=timeout_char)
-        
+
+    def init(self, baudrate=9600, bits=8, parity=None, stop=1, **kwargs):
+       self._uart = UART(0, baudrate=baudrate, bits=bits, parity=parity, stop=stop, tx=Pin(16), rx=Pin(17), **kwargs)
+
     def __getattr__(self, attr):
         return getattr(self._uart, attr)
     
