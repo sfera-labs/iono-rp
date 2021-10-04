@@ -69,7 +69,7 @@ The `AV1` - `AV4` attributes are instances of the [`machine.ADC`](https://docs.m
 The `AI1` - `AI4` attributes are instances of the [`machine.ADC`](https://docs.micropython.org/en/latest/library/machine.ADC.html) class, extended with the `read_mA()` (or equivalent `__call__()`) method, which returns the ADC value converted to current (mA).
 
 #### Analog voltage output - AO1
-The `AO1` attribute is an instances of the [`machine.PWM`](https://docs.micropython.org/en/latest/library/machine.PWM.html) class, extended with the `duty_V([value])` (or equivalent `__call__([value])`) method, which sets (`value` argument specified) or gets (no `value` argument) the voltage value (V) on AO1, by setting or reading the corresponding duty cycle of the PWM.
+The `AO1` attribute is an instance of the [`machine.PWM`](https://docs.micropython.org/en/latest/library/machine.PWM.html) class, extended with the `duty_V([value])` (or equivalent `__call__([value])`) method, which sets (`value` argument specified) or gets (no `value` argument) the voltage value (V) on AO1, by setting or reading the corresponding duty cycle of the PWM.
 
 ### RS-485 serial interface
 
