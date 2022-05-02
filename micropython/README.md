@@ -21,7 +21,7 @@ Follow these steps to run the MicroPython examples using the Thonny IDE from you
 - Double-click on one of the example files to open it in the main editor
 - Press on the "Play" (&#9658;) button in the top bar of Thonny to run the example on your Iono RP
 
-![Screenshot 2021-08-17 at 13 27 58](https://user-images.githubusercontent.com/6586434/129718440-782360e6-1c07-43a6-9974-849b64ec1c5f.png)
+![iono-rp-micropython-thonny](https://user-images.githubusercontent.com/6586434/129718440-782360e6-1c07-43a6-9974-849b64ec1c5f.png)
 
 ## Module `iono` documentation
 
