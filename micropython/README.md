@@ -14,12 +14,12 @@ Follow these steps to run the MicroPython examples using the Thonny IDE from you
 - Click on the bottom-right corner of the Thonny window to select "MicroPython (Raspberry Pi Pico)" as interpreter
 - Unplug Iono RP from any power source (main power supply and USB cable)
 - Connect the USB cable to Iono RP while holding the BOOTSEL button, then release the BOOTSEL button
-- Click on the Stop sign button in the top bar of Thonny
+- Click the Stop sign button in the top bar of Thonny
 - A pop-up will ask you to install MicroPython, go ahead and proceed with the installation
 - In the Files view you will now see a "Raspberry Pi Pico" section showing the files uploaded to Iono RP
 - From the Files view right-click on the "lib" folder, select "Upload to /" and wait for the upload to finish
 - Double-click on one of the example files to open it in the main editor
-- Press on the "Play" (&#9658;) button in the top bar of Thonny to run the example on your Iono RP
+- Click the "Run" (&#9658;) button in the top bar of Thonny to run the example on your Iono RP
 
 ![iono-rp-micropython-thonny](https://user-images.githubusercontent.com/6586434/129718440-782360e6-1c07-43a6-9974-849b64ec1c5f.png)
 
