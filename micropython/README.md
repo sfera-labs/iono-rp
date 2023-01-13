@@ -60,7 +60,7 @@ The `DO1` - `DO4` attributes are instances of the [`machine.Pin`](https://docs.m
 The `DI1` - `DI6` attributes are instances of the [`machine.Pin`](https://docs.micropython.org/en/latest/library/machine.Pin.html) class, initialized in input mode.
 
 #### Digital TTL I/O lines - DIn_BYP
-The `DI5_BYP` and `DI6_BYP` attributes are instances of the [`Pin`](https://docs.micropython.org/en/latest/library/machine.Pin.html). Must be initialized as input or output, calling their `init(mode)` method.
+The `DI5_BYP` and `DI6_BYP` attributes are instances of the [`Pin`](https://docs.micropython.org/en/latest/library/machine.Pin.html) class. Must be initialized as input or output, calling their `init(mode)` method.
 
 #### Analog voltage inputs - AVn
 The `AV1` - `AV4` attributes are instances of the [`machine.ADC`](https://docs.micropython.org/en/latest/library/machine.ADC.html) class, extended with the `read_V()` (or equivalent `__call__()`) method, which returns the ADC value converted to voltage (V).
